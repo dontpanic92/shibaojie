@@ -1,1 +1,19 @@
-Yo
+<html>
+  <head>
+    <title> 食宝街随机大法</title>
+    <script>
+    function yo()
+    {
+      var abcd = int(Math.random() * 4);
+      var no = int(Math.random() * 20);
+      var vh = int(Math.random() * 2);
+      document.getElementById("result").innerHTML = abcd + " " + no + " " + vh;
+    }
+    </script>
+  </head>
+  <body style="margin:auto">
+    <input type="button" onclick="javascript:yo();"/>
+    <div id="result">
+    </div>
+  </body>
+</html>
