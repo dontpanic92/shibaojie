@@ -1,4 +1,4 @@
-<html>
++ <html>
   <head>
     <meta charset="UTF-8">
     <title> 食宝街随机大法</title>
@@ -11,12 +11,12 @@
       // document.getElementById("result").innerHTML = abcd + " " + no + " " + vh;
       var abcd_str = String.fromCharCode('A'.charCodeAt(0) + abcd);
       var vh_str = vh == 0 ? "左到右" : "上到下";
-      document.getElementById("result").innerHTML = "今天去" + abcd_str + "区 从" + vh_str + "数 第" + (no + 1) "家饭店！！！";
+      document.getElementById("result").innerHTML = "今天去" + abcd_str + "区 从" + vh_str + "数 第" + (no + 1) + "家店！";
     }
     </script>
   </head>
   <body style="margin:auto">
-    <input type="button" onclick="javascript:yo();"/>
+    <input type="button" onclick="javascript:yo();" value="食宝街吃饭随机开始！"/>
     <div id="result">
     </div>
   </body>
